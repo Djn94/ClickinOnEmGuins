@@ -2,10 +2,14 @@ import React from 'react';
 const style = {
     navStyle: {
         background: 'yellow',
-        height: 60,
+        height: "10vh",
+        width: "100%",
         marginTop: 0,
         paddingTop: 0,
         textAlign: "right",
+        position: "fixed",
+        top: "0",
+        left: "0",
     }
 }
 function Navbar() {

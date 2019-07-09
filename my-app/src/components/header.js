@@ -2,9 +2,10 @@ import React from 'react';
 const style = {
     HeaderStyle: {
         background: 'green',
-        margin: 0,
-        height: 125,
+        marginTop: 0,
+        height: "25vh",
         textAlign: "center",
+        width: "100%",
     }
 }
 function Header() {

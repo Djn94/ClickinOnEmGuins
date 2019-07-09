@@ -10,13 +10,13 @@ const style = {
         position: "fixed",
         left: "0",
         bottom: "0",
-        height: 60,
+        height: "10vh",
         width: "100%",
     },
     ghostdiv: {
         display: "block",
         padding: "20px",
-        height: 60,
+        height: "10vh",
         width: "100%",
     }
 }

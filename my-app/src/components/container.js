@@ -2,8 +2,12 @@ import React from 'react';
 const style = {
     containerStyle: {
         background: 'purple',
-        height: 250,
+        height: "55vh",
+        width: "100%",
         textAlign: "center",
+        margin: 0,
+        marginTop: 0,
+        paddingTop: 0,
     }
 }
 function Container() {
