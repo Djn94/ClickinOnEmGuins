@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 
 function App() {
   return (<div className='pageDiv'>
-    <h1> TESTING THE REACT SETUP</h1>
     <Navbar />
     <Header />
     <Container />
