@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 const style = {
     HeaderStyle: {
         background: 'green',
@@ -10,7 +11,8 @@ const style = {
 }
 function Header() {
     return (<div style={style.HeaderStyle} className='headerDiv'>
-        <h2>this is the header div</h2>
+        <div><h2>hm</h2></div>
+        <h2 id="instructions">Clck each cute penguin only once! Get twelve correct in a row to win.</h2>
     </div >
     );
 }

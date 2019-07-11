@@ -1,26 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Navbar";
-import Header from './components/Header';
-import Container from './components/Container';
-import Footer from './components/Footer';
+import Navbar from "./components/navbar/Navbar";
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import Card from './components/card/card';
 import penguins from './penguins.json';
-class App extends React.Component {
+import Container from './components/cardwrapper/Container'
+class App extends Component {
   state = { penguins }
   render() {
-    return (<div className='pageDiv' >
+    return (<div>
       <Navbar />
       <Header />
-
-      <Container />
-      <Card />
-
+      <Container>
+        {this.state.penguins.map(penguin => (
+          <Card
+            id={penguin.id}
+            key={penguin.id}
+            image={penguin.image}
+            name={penguin.name}
+          />
+        ))}
+      </Container>
       <Footer />
-
     </div>
     );
+
   }
 }
 

@@ -1,9 +1,9 @@
 .card{
     background: white;
     border: 5px solid black;
-    height: 7vh;
+    height: 20rem;
     margin: 1rem;
-    width: 7vh;
+    width: 20rem;
     box-shadow: 5px;
 }
 
