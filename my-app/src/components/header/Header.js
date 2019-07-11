@@ -4,7 +4,7 @@ const style = {
     HeaderStyle: {
         background: 'green',
         marginTop: 0,
-        height: "25vh",
+        height: "22vh",
         textAlign: "center",
         width: "100%",
     }

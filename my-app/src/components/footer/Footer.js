@@ -10,8 +10,9 @@ const style = {
         position: "fixed",
         left: "0",
         bottom: "0",
-        height: "10vh",
+        height: "5vh",
         width: "100%",
+        
     },
     ghostdiv: {
         display: "block",

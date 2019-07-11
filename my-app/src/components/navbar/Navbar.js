@@ -10,6 +10,8 @@ const style = {
         position: "fixed",
         top: "0",
         left: "0",
+        borderBottom: "3px, solid, black",
+        borderTop: "3px, solid, black",
     }
 }
 function Navbar() {

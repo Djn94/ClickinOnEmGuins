@@ -16,6 +16,7 @@ class App extends Component {
       <Container>
         {this.state.penguins.map(penguin => (
           <Card
+            handleClick={this.handleClick}
             id={penguin.id}
             key={penguin.id}
             image={penguin.image}
