@@ -5,16 +5,23 @@ import Navbar from "./components/Navbar";
 import Header from './components/Header';
 import Container from './components/Container';
 import Footer from './components/Footer';
+import Card from './components/card/card';
+import penguins from './penguins.json';
+class App extends React.Component {
+  state = { penguins }
+  render() {
+    return (<div className='pageDiv' >
+      <Navbar />
+      <Header />
 
-function App() {
-  return (<div className='pageDiv'>
-    <Navbar />
-    <Header />
-    <Container />
-    <Footer />
+      <Container />
+      <Card />
 
-  </div>
-  );
+      <Footer />
+
+    </div>
+    );
+  }
 }
 
 export default App;

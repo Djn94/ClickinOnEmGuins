@@ -1,0 +1,16 @@
+.card{
+    background: white;
+    border: 5px solid black;
+    height: 7vh;
+    margin: 1rem;
+    width: 7vh;
+    box-shadow: 5px;
+}
+
+.card > .img-container{
+    height: 75%;
+    overflow: hidden;
+    text-align: center;
+    text-emphasis: none;
+    background: black;
+}
